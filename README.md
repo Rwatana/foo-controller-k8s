@@ -5,7 +5,7 @@ Custom controllers are important tools in Kubernetes for managing custom resourc
 ## Controller Overview
 by deploying CustomResourceDefinitions (CRDs) and CustomResources (CRs), a deployment is automatically created using the name and replicas defined in the CustomResource. Furthermore, when the replicas field of the CustomResource is modified, the deployment is automatically updated accordingly. Similarly, deleting the CustomResource results in the deletion of the corresponding deployment as well.
 ### Foo Resource
-![Test Image 1](images/resource.draw.io.png)
+![Test Image 1](images/resource.png)
 ### Foo Controller
 the Reconcile process utilizes a loop to maintain the system in its intended state. It automates the following tasks using the name and replicas defined in the CustomResource:
 
