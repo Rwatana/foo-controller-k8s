@@ -13,3 +13,21 @@ the Reconcile process utilizes a loop to maintain the system in its intended sta
 3. Updating deployments when the CustomResource definition is modified.
 4. Updating the status of the CustomResource using the replicas of the deployment.
 ## How to use
+
+
+
+Run localy
+
+```
+$ make install
+$ make run
+$ kubectl apply -f config/samples/samplecontroller_v1alpha1_foo.yaml
+```
+
+Run container as Deployment
+
+```
+$ make install
+$ make deploy
+$ kubectl apply -f config/samples/samplecontroller_v1alpha1_foo.yaml
+```
