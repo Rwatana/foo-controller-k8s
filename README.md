@@ -13,6 +13,7 @@ the Reconcile process utilizes a loop to maintain the system in its intended sta
 2. Automatic recreation of deployments if they are deleted.
 3. Updating deployments when the CustomResource definition is modified.
 4. Updating the status of the CustomResource using the replicas of the deployment.
+![Test Image 2](images/controller.png)
 ## How to use
 
 
